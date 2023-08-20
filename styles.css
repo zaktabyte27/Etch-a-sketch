@@ -1,0 +1,41 @@
+.row{
+    display:flex;
+    flex-direction: row;
+    flex:1;
+}
+
+.canvas{
+    border-style: solid;
+    border-color: black;
+}
+
+.gridLinesTrue{
+    border-Color:black;
+    border-style:solid;
+    border-width:thin;
+}
+
+.gridLinesFalse{
+    border-style: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+#selectors{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    margin:10px;
+    gap:20px;
+}
+
+#colorpicker{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    border:none;
+    padding: 0;
+}

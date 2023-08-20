@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-sketch</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <script src = "main.js" defer></script>
+</head>
+<body>
+    <h1><strong>Etch-a-sketch</strong></h1>
+    <div class= "container">
+        <div id = "selectors">
+            <input type="color" id="colorpicker" value="#0000ff">
+            <button id = "Clear">Clear Canvas</button>
+            <button id = "ShowLines">Show grid lines</button>
+            <div class = "box">
+                <input type="range" id="canvasSelector" name="canvasSelector" min="1" max="64" />
+                <div class = "canvasSizeText">Choose canvas size</div>
+            </div>
+        </div>
+        <div class   = "canvas">
+        </div>
+    </div>
+</body>
+</html>
